@@ -1,5 +1,7 @@
 @mixin hr($bg-color) {
 max-width: 86px;
 padding: 1px;
+display: flex;
+margin:auto;
 background-color: $bg-color;
 }
