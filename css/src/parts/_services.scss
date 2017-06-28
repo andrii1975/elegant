@@ -1,0 +1,55 @@
+.services{
+background-color: #fff;
+width: 100%;
+max-width: 1600px;
+margin: 0;
+&__row {
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+}
+&__h1{
+color: #222;
+font-family: 'Raleway',sans-serif;
+font-size: 35px;
+font-weight: 700;
+text-align: center;
+margin: 0;
+padding-top: 116px;
+padding-bottom: 74px;
+text-transform: uppercase;
+}
+&__line{ @include hr(#222);
+}
+&__app{
+display: flex;
+justify-content: center;
+}
+&__modern{
+display: flex;
+justify-content: center;
+}
+&__symbol{
+display: flex;
+justify-content: center;
+}
+&__images{
+padding-top: 80px;
+padding-bottom: 37px;
+}
+&__texth1{
+color: #222;
+font-family: 'Lato',sans-serif;
+font-weight: 400;
+font-size: 24px;
+text-align: center;
+}
+&__texth2{
+color: #222;
+font-family: 'Lato',sans-serif;
+font-size: 16px;
+padding-top: 30px;
+padding-bottom: 119px;
+text-align: center;
+}
+}

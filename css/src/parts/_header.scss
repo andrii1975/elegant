@@ -1,0 +1,56 @@
+/*header*/
+.header{
+background-image: url(../../image/hero-img.png);
+padding-top: 50px;
+&__row {
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+}
+&__h1{
+text-align: center;
+color:$white-color;
+font-family: 'Raleway',sans-serif;
+font-weight: 700;
+font-size: 48px;
+margin:0;
+padding-top: 250px;
+padding-bottom: 52px;
+text-transform: uppercase;
+}
+&__line{ @include hr(#fff);
+}
+&__h2{
+font-family: 'Lato', sans-serif;
+font-size: 22px;
+font-weight: 400;
+text-align: center;
+margin: 0;
+padding-top: 44px;
+padding-bottom: 220px;
+color: $white-color;
+}
+&__round{
+text-decoration: none;
+color:$white-color;
+width: 92px;
+height: 92px;
+border: 2px solid #fff;
+text-align: center;
+font-size: 22px;
+color:#fff;
+margin: 0 auto;
+margin-bottom: 45px;
+border-radius: 50%;
+opacity: 50%;
+}
+&__round:hover{
+border:2px solid $black-color;
+}
+}
+.fa{
+font-size: 30px;
+color: #fff;
+opacity:50%;
+padding-top: 30px;
+}
